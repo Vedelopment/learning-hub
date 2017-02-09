@@ -1,3 +1,4 @@
+```
            Prefix Verb   URI Pattern                     Controller#Action
              root GET    /                                      index#show
             about GET    /about .                               about#index
@@ -52,4 +53,4 @@ create_student_feedback POST   /students/:student_id/feedbacks        feedback#c
        student_feedback GET    /feedbacks/:id                         feedback#show
                         PATCH  /students/:student_id/feedbacks/:id    feedbacks#update
                         DELETE /students/:student_id/feedbacks/:id    feedbacks#destroy
-
+```
